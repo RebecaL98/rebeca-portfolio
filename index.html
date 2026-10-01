@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebeca Leu | Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Rebeca Leu</div>
+
+        <div class="menu-toggle" id="mobile-menu">
+            ☰
+        </div> 
+
+        <nav id="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<section id="hero">
+        <div class="hero-content">
+            <h1>WEB<br>DEVELOPER</h1>
+
+            <p class="typewriter-text"><span id="typewriter"></span><span class="cursor">_</span></p>
+            
+            <div class="badge">
+                <div class="dot"></div>
+                <svg viewBox="0 0 100 100" width="140" height="140">
+                    <defs>
+                        <path id="circlePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" />
+                    </defs>
+                    <text font-size="9.5" font-family="monospace" fill="#FAFAFA" font-weight="bold">
+                        <textPath href="#circlePath" textLength="220" lengthAdjust="spacingAndGlyphs">
+                            OPEN TO WORK • OPEN TO WORK • 
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+  <section id="featured-banner">
+        <div class="slideshow-container">
+            <img src="img/laptop-limelight.png" alt="Limelight Cinema on Laptop" class="slide active">
+            <img src="img/laptop-sneakers.png" alt="Hi-Top Sneakers on Laptop" class="slide">
+            <img src="img/bikeking-hero.png" alt="Bike King Redesign on Laptop" class="slide">
+        </div>
+    </section>
+
+<section id="about">
+        <div class="about-container">
+            <div class="about-heading">
+                <h2>Hi there &mdash;<br>My name is Rebeca.</h2>
+            </div>
+            
+            <div class="about-text">
+                <p>I am a soon-to-be Web Design and Development graduate with a passion for turning concepts into living, breathing digital experiences. My focus is on front-end development, specialising in responsive, user-centric interfaces. I love the challenge of bringing an idea to life from scratch.</p>
+                
+                <p>Outside of the code editor, I’ve recently discovered the magic of the Harry Potter books, proving it is never too late to dive into something new!</p>
+            </div>
+        </div>
+    </section>
+
+<section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="projects-container">
+            
+            <div class="showcase-visual">
+                <div class="image-card-wrapper">
+                    <img id="dynamic-project-img" src="img/limelight-mockup.png" alt="Project Preview">
+                    <div class="project-action">
+                        <a id="dynamic-project-link" href="limelight-project.html" class="view-btn">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-list">
+                
+                <div class="list-item active" data-image="img/limelight-mockup.png" data-link="limelight-project.html">
+                    <span class="item-category">Web App Concept</span>
+                    <h3>Limelight Cinema</h3>
+                </div>
+
+                <div class="list-item" data-image="img/sneakers-mockup.png" data-link="sneakers-project.html">
+                    <span class="item-category">E-Commerce Concept</span>
+                    <h3>Hi-Top Sneakers</h3>
+                </div>
+
+                <div class="list-item" data-image="img/bikeking-mockup2.png" data-link="bikeking-project.html"> 
+                    <span class="item-category">UX/UI Redesign</span>
+                    <h3>Bike King Borders</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Tech Stack</h2>
+        
+        <div class="skills-container">
+            <div class="skill-pill">HTML5</div>
+            <div class="skill-pill">CSS3</div>
+            <div class="skill-pill">JavaScript</div>
+            <div class="skill-pill">React</div>
+            <div class="skill-pill">PHP</div>
+            <div class="skill-pill">Figma</div>
+            <div class="skill-pill">UI/UX Design</div>
+        </div>
+    </section>
+
+<footer id="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2>Would you like to have a chat?</h2>
+                <h3>Get in touch!</h3>
+            </div>
+            
+            <a href="mailto:hello@rebecaleu.com" class="contact-btn">rebeca_leu@outlook.com</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
